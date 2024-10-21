@@ -1,0 +1,36 @@
+body {
+    background-color: #000; /* black background */
+    color: #fff; /* white text color */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* full viewport height */
+    margin: 0; /* remove default margin */
+}
+
+.container {
+    width: 80%; /* set width of container */
+    max-width: 600px; /* maximum width */
+    text-align: center; /* center text */
+}
+
+#textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff; /* white text color */
+    background-color: #333; /* dark gray background */
+    border: 1px solid #666; /* dark gray border */
+    margin-top: 20px; /* space above textarea */
+}
+
+#color-picker {
+    margin-top: 10px;
+}
+
+#output {
+    margin-top: 20px;
+}
